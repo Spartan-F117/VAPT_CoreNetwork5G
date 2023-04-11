@@ -1,0 +1,44 @@
+UERANSIM v3.2.6
+[2023-04-11 16:48:45.253] [sctp] [info] Trying to establish SCTP connection... (10.0.2.6:38412)
+[2023-04-11 16:48:45.256] [sctp] [info] SCTP connection established (10.0.2.6:38412)
+[2023-04-11 16:48:45.256] [sctp] [debug] SCTP association setup ascId[18]
+[2023-04-11 16:48:45.257] [ngap] [debug] Sending NG Setup Request
+[2023-04-11 16:48:45.257] [ngap] [debug] NG Setup Response received
+[2023-04-11 16:48:45.257] [ngap] [info] NG Setup procedure is successful
+[2023-04-11 16:48:46.923] [rrc] [debug] UE[1] new signal detected
+[2023-04-11 16:48:46.923] [rrc] [info] RRC Setup for UE[1]
+[2023-04-11 16:48:46.923] [ngap] [debug] Initial NAS message received from UE[1]
+[2023-04-11 16:48:46.936] [ngap] [debug] Initial Context Setup Request received
+[2023-04-11 16:48:47.151] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+
+# attacco di replay
+[2023-04-11 16:50:03.501] [ngap] [debug] UE Context Release Command received
+[2023-04-11 16:50:03.501] [rrc] [info] Releasing RRC connection for UE[1]
+
+## not yet restarted: "google.it" request from UE
+[2023-04-11 16:50:35.272] [rrc] [info] RRC Setup for UE[1]
+[2023-04-11 16:50:35.272] [ngap] [debug] Initial NAS message received from UE[1]
+
+# shutdown UE
+[2023-04-11 16:50:56.318] [rls] [debug] UE[1] signal lost
+
+# restart UE
+[2023-04-11 16:51:15.114] [rrc] [debug] UE[2] new signal detected
+[2023-04-11 16:51:15.124] [rrc] [info] RRC Setup for UE[2]
+[2023-04-11 16:51:15.124] [ngap] [debug] Initial NAS message received from UE[2]
+[2023-04-11 16:51:15.125] [ngap] [debug] UE Context Release Command received
+[2023-04-11 16:51:15.125] [rrc] [info] Releasing RRC connection for UE[1]
+[2023-04-11 16:51:15.131] [ngap] [debug] UE Context Release Command received
+[2023-04-11 16:51:15.131] [rrc] [info] Releasing RRC connection for UE[2]
+
+## Retry Association from UE
+[2023-04-11 16:51:26.127] [rrc] [info] RRC Setup for UE[2]
+[2023-04-11 16:51:26.127] [ngap] [debug] Initial NAS message received from UE[2]
+[2023-04-11 16:51:26.194] [ngap] [debug] Initial Context Setup Request received
+[2023-04-11 16:51:26.407] [ngap] [info] PDU session resource(s) setup for UE[2] count[1]
+
+##shutdown Core Network 5G
+[2023-04-11 16:51:33.996] [sctp] [debug] SCTP association shutdown (clientId: 2)
+[2023-04-11 16:51:33.996] [sctp] [warning] Unhandled SCTP notification received
+[2023-04-11 16:51:33.996] [ngap] [error] Association terminated for AMF[2]
+[2023-04-11 16:51:33.996] [ngap] [debug] Removing AMF context[2]

@@ -1,0 +1,547 @@
+####################################################
+####################################################
+## 5Greplay: start replay attack
+
+04/11 16:50:03.337: [amf] INFO: gNB-N2 accepted[10.0.2.6]:53844 in ng-path module (../src/amf/ngap-sctp.c:113)
+04/11 16:50:03.337: [amf] INFO: gNB-N2 accepted[10.0.2.6] in master_sm module (../src/amf/amf-sm.c:664)
+04/11 16:50:03.337: [amf] INFO: [Added] Number of gNBs is now 2 (../src/amf/context.c:973)
+04/11 16:50:03.337: [amf] INFO: gNB-N2[10.0.2.6] max_num_of_ostreams : 30 (../src/amf/amf-sm.c:703)
+
+## NGSetupRequest #pkt:477
+04/11 16:50:03.395: [amf] DEBUG: NGSetupRequest (../src/amf/ngap-handler.c:128)
+04/11 16:50:03.395: [amf] DEBUG:     IP[10.0.2.6] GNB_ID[0x1] (../src/amf/ngap-handler.c:176)
+04/11 16:50:03.395: [amf] DEBUG:     PagingDRX[2] (../src/amf/ngap-handler.c:179)
+04/11 16:50:03.395: [amf] DEBUG:     TAC[1] (../src/amf/ngap-handler.c:202)
+04/11 16:50:03.395: [amf] DEBUG:     PLMN_ID[MCC:901 MNC:70] (../src/amf/ngap-handler.c:230)
+04/11 16:50:03.395: [amf] DEBUG:     S_NSSAI[SST:1 SD:0xffffff] (../src/amf/ngap-handler.c:269)
+04/11 16:50:03.395: [amf] DEBUG:     TAC[1] (../src/amf/ngap-handler.c:40)
+04/11 16:50:03.395: [amf] DEBUG:     PLMN_ID[MCC:901 MNC:70] (../src/amf/ngap-handler.c:41)
+04/11 16:50:03.395: [amf] DEBUG:     SERVED_TAI_INDEX[0] (../src/amf/ngap-handler.c:46)
+04/11 16:50:03.395: [amf] DEBUG:     PLMN_ID[MCC:901 MNC:70] (../src/amf/ngap-handler.c:68)
+04/11 16:50:03.395: [amf] DEBUG:     S_NSSAI[SST:1 SD:0xffffff] (../src/amf/ngap-handler.c:73)
+
+## NGSetupRequest #pkt:481
+04/11 16:50:03.395: [amf] DEBUG: NG-Setup response (../src/amf/ngap-path.c:254)
+04/11 16:50:03.395: [amf] DEBUG: NGSetupResponse (../src/amf/ngap-build.c:36)
+04/11 16:50:03.395: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+04/11 16:50:03.395: [amf] ERROR: Not implemented(choice:2, proc:21) (../src/amf/ngap-sm.c:160)
+
+## NGSetupRequest #pkt:485
+04/11 16:50:03.395: [amf] INFO: InitialUEMessage (../src/amf/ngap-handler.c:361)
+04/11 16:50:03.395: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-handler.c:387)
+
+04/11 16:50:03.395: [amf] INFO: [Added] Number of gNB-UEs is now 2 (../src/amf/context.c:2235)
+04/11 16:50:03.395: [amf] INFO:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:503)
+
+04/11 16:50:03.395: [amf] INFO: [suci-0-901-70-0000-0-0-0000000001] known UE by SUCI (../src/amf/context.c:1544)
+04/11 16:50:03.395: [amf] DEBUG: [suci-0-901-70-0000-0-0-0000000001] Start NG Holding Timer (../src/amf/amf-sm.c:856)
+04/11 16:50:03.395: [amf] DEBUG: [suci-0-901-70-0000-0-0-0000000001]    RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[1] (../src/amf/amf-sm.c:857)
+
+## NGSetupRequest #pkt:490
+04/11 16:50:03.395: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-path.c:322)
+04/11 16:50:03.395: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[1] (../src/amf/ngap-path.c:323)
+04/11 16:50:03.395: [amf] DEBUG:     Group[3] Cause[0] Action[1] Duration[0] (../src/amf/ngap-path.c:329)
+
+04/11 16:50:03.395: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-build.c:1084)
+04/11 16:50:03.395: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+04/11 16:50:03.395: [gmm] DEBUG: gmm_state_registered(): AMF_EVENT_5GMM_MESSAGE (../src/amf/gmm-sm.c:86)
+
+04/11 16:50:03.395: [gmm] INFO: Registration request (../src/amf/gmm-sm.c:135)
+04/11 16:50:03.395: [gmm] INFO: [suci-0-901-70-0000-0-0-0000000001]    SUCI (../src/amf/gmm-handler.c:149)
+04/11 16:50:03.395: [gmm] DEBUG:     OLD TSC[UE:0,AMF:0] KSI[UE:7,AMF:0] (../src/amf/gmm-handler.c:179)
+04/11 16:50:03.395: [gmm] DEBUG:     NEW TSC[UE:0,AMF:0] KSI[UE:7,AMF:0] (../src/amf/gmm-handler.c:186)
+04/11 16:50:03.395: [gmm] DEBUG:     OLD TAI[PLMN_ID:09f107,TAC:1] (../src/amf/gmm-handler.c:231)
+04/11 16:50:03.395: [gmm] DEBUG:     OLD NR_CGI[PLMN_ID:09f107,CELL_ID:0x10] (../src/amf/gmm-handler.c:233)
+04/11 16:50:03.395: [gmm] DEBUG:     TAI[PLMN_ID:09f107,TAC:1] (../src/amf/gmm-handler.c:236)
+04/11 16:50:03.395: [gmm] DEBUG:     NR_CGI[PLMN_ID:09f107,CELL_ID:0x10] (../src/amf/gmm-handler.c:239)
+04/11 16:50:03.395: [gmm] DEBUG:     SERVED_TAI_INDEX[0] (../src/amf/gmm-handler.c:256)
+
+04/11 16:50:03.395: [sbi] DEBUG: [POST] http://127.0.0.4:7777/nsmf-pdusession/v1/sm-contexts/1/release (../lib/sbi/client.c:678)
+04/11 16:50:03.395: [sbi] DEBUG: SENDING...[329] (../lib/sbi/client.c:396)
+04/11 16:50:03.395: [sbi] DEBUG: {
+	"ueLocation":	{
+		"nrLocation":	{
+			"tai":	{
+				"plmnId":	{
+					"mcc":	"901",
+					"mnc":	"70"
+				},
+				"tac":	"000001"
+			},
+			"ncgi":	{
+				"plmnId":	{
+					"mcc":	"901",
+					"mnc":	"70"
+				},
+				"nrCellId":	"000000010"
+			},
+			"ueLocationTimestamp":	"2023-04-11T14:50:03.395897Z"
+		}
+	},
+	"ueTimeZone":	"+02:00"
+} (../lib/sbi/client.c:398)
+
+04/11 16:50:03.396: [amf] ERROR: Not implemented(choice:1, proc:4) (../src/amf/ngap-sm.c:126)
+
+04/11 16:50:03.396: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:50:03.396: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+04/11 16:50:03.396: [gmm] DEBUG: [suci-0-901-70-0000-0-0-0000000001] Authentication response (../src/amf/gmm-handler.c:695)
+04/11 16:50:03.396: [gmm] ERROR: [suci-0-901-70-0000-0-0-0000000001] MAC failure (../src/amf/gmm-handler.c:709)
+0000: 16a14beb 62de6208 35144bad 64b3d77b   ..K.b.b.5.K.d..{
+0000: f39e9887 4526bf4c 107c35cc 6a0bc4fa   ....E&.L.|5.j...
+0000: 7a2c4f89 ccc1f93b 08722d31 5809777a   z,O....;.r-1X.wz
+
+## Authentication reject #pkt:496
+04/11 16:50:03.396: [amf] WARNING: [suci-0-901-70-0000-0-0-0000000001] Authentication reject (../src/amf/nas-path.c:383)
+04/11 16:50:03.396: [amf] DEBUG: DownlinkNASTransport (../src/amf/ngap-build.c:321)
+04/11 16:50:03.396: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] (../src/amf/ngap-build.c:364)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+04/11 16:50:03.396: [gmm] DEBUG: gmm_state_authentication(): EXIT (../src/amf/gmm-sm.c:531)	
+04/11 16:50:03.396: [gmm] DEBUG: gmm_state_exception(): ENTRY (../src/amf/gmm-sm.c:1285)
+
+04/11 16:50:03.396: [amf] ERROR: Not implemented(choice:1, proc:4) (../src/amf/ngap-sm.c:126)
+
+04/11 16:50:03.396: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:50:03.396: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+04/11 16:50:03.396: [amf] WARNING: NAS MAC verification failed(0x36562754 != 0xa70a23fd) (../src/amf/nas-security.c:170)
+04/11 16:50:03.396: [gmm] ERROR: Unknown message [94] (../src/amf/gmm-sm.c:1407)
+04/11 16:50:03.396: [amf] ERROR: Not implemented(choice:1, proc:14) (../src/amf/ngap-sm.c:126)
+
+04/11 16:50:03.396: [amf] DEBUG: InitialContextSetupResponse (../src/amf/ngap-handler.c:788)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-handler.c:808)
+04/11 16:50:03.396: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] (../src/amf/ngap-handler.c:840)
+
+04/11 16:50:03.396: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:50:03.396: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+04/11 16:50:03.396: [amf] WARNING: NAS MAC verification failed(0x25141b63 != 0x103a2094) (../src/amf/nas-security.c:170)
+04/11 16:50:03.396: [gmm] ERROR: Unknown message [67] (../src/amf/gmm-sm.c:1407)
+04/11 16:50:03.396: [amf] ERROR: Not implemented(choice:1, proc:4) (../src/amf/ngap-sm.c:126)
+
+04/11 16:50:03.396: [amf] DEBUG: UEContextReleaseComplete (../src/amf/ngap-handler.c:1348)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:1364)
+
+04/11 16:50:03.396: [amf] INFO: UE Context Release [Action:1] (../src/amf/ngap-handler.c:1412)
+04/11 16:50:03.396: [amf] INFO:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[1] (../src/amf/ngap-handler.c:1413)
+04/11 16:50:03.396: [amf] DEBUG:     Action: NG context remove (../src/amf/ngap-handler.c:1431)
+04/11 16:50:03.396: [amf] INFO: [Removed] Number of gNB-UEs is now 1 (../src/amf/context.c:2242)
+
+04/11 16:50:03.396: [amf] ERROR: Not implemented(choice:1, proc:29) (../src/amf/ngap-sm.c:126)
+
+04/11 16:50:03.396: [amf] DEBUG: PDUSessionResourceSetupResponse (../src/amf/ngap-handler.c:1515)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-handler.c:1540)
+04/11 16:50:03.396: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] (../src/amf/ngap-handler.c:1572)
+
+## Error Indication #pkt:507
+04/11 16:50:03.396: [amf] ERROR: Session Context is not in SMF [1] (../src/amf/ngap-handler.c:1637)
+04/11 16:50:03.396: [ngap] DEBUG: Error Indication (../lib/ngap/build.c:36)
+04/11 16:50:03.396: [ngap] DEBUG:     AMF_UE_NGAP_ID[2] (../lib/ngap/build.c:61)
+04/11 16:50:03.396: [ngap] DEBUG:     RAN_UE_NGAP_ID[1] (../lib/ngap/build.c:75)
+04/11 16:50:03.396: [ngap] DEBUG:     Group[1] Cause[26] (../lib/ngap/build.c:90)
+04/11 16:50:03.396: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+04/11 16:50:03.397: [upf] INFO: [Removed] Number of UPF-sessions is now 0 (../src/upf/context.c:212)
+
+04/11 16:50:03.397: [smf] INFO: Removed Session: UE IMSI:[imsi-901700000000001] DNN:[internet:1] IPv4:[10.45.0.2] IPv6:[] (../src/smf/context.c:1596)
+
+04/11 16:50:03.397: [smf] INFO: [Removed] Number of SMF-Sessions is now 0 (../src/smf/context.c:2982)
+
+04/11 16:50:03.397: [smf] INFO: [Removed] Number of SMF-UEs is now 0 (../src/smf/context.c:957)
+
+04/11 16:50:03.397: [sbi] DEBUG: [204:POST] http://127.0.0.4:7777/nsmf-pdusession/v1/sm-contexts/1/release (../lib/sbi/client.c:562)
+
+## UE Context Relese Command #pkt:511
+04/11 16:50:03.397: [amf] INFO: [imsi-901700000000001:1] Release SM context [204] (../src/amf/amf-sm.c:472)
+
+04/11 16:50:03.397: [amf] INFO: [Removed] Number of AMF-Sessions is now 0 (../src/amf/context.c:2256)
+
+04/11 16:50:03.397: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-path.c:322)
+04/11 16:50:03.397: [amf] DEBUG:     RAN_UE_NGAP_ID[1] AMF_UE_NGAP_ID[2] (../src/amf/ngap-path.c:323)
+04/11 16:50:03.397: [amf] DEBUG:     Group[3] Cause[0] Action[3] Duration[0] (../src/amf/ngap-path.c:329)
+
+04/11 16:50:03.397: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-build.c:1084)
+04/11 16:50:03.397: [amf] DEBUG:     IP[10.0.2.6] RAN_ID[1] (../src/amf/ngap-path.c:70)
+04/11 16:50:03.397: [amf] DEBUG:     SUPI[imsi-901700000000001] (../src/amf/ngap-path.c:355)
+
+04/11 16:50:03.438: [amf] INFO: gNB-N2[10.0.2.6] connection refused!!! (../src/amf/amf-sm.c:716)
+
+04/11 16:50:03.438: [amf] INFO: [Removed] Number of gNB-UEs is now 0 (../src/amf/context.c:2242)
+
+04/11 16:50:03.438: [amf] INFO: [Removed] Number of gNBs is now 1 (../src/amf/context.c:1000)
+
+...
+...
+...
+...
+####################################################
+####################################################
+# UE: Richiesta di un pacchetto da inoltrare alla DN
+
+## InitialUEMessage ##pkt: 723
+04/11 16:50:35.167: [amf] INFO: InitialUEMessage (../src/amf/ngap-handler.c:361)
+04/11 16:50:35.167: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:387)
+
+04/11 16:50:35.167: [amf] INFO: [Added] Number of gNB-UEs is now 1 (../src/amf/context.c:2235)
+04/11 16:50:35.167: [amf] INFO: [suci-0-901-70-0000-0-0-0000000001]    5G-S_TMSI[AMF_ID:0x20040,M_TMSI:0xfa007bcf] (../src/amf/ngap-handler.c:440)
+04/11 16:50:35.168: [amf] INFO:     RAN_UE_NGAP_ID[2] AMF_UE_NGAP_ID[3] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:503)
+
+04/11 16:50:35.168: [gmm] ERROR: Unknown message [76] (../src/amf/gmm-sm.c:1407)
+
+...
+...
+...
+...
+####################################################
+####################################################
+# UE: Restart - Registration
+
+## InitialUEMessage ##pkt: 985
+04/11 16:51:15.019: [amf] INFO: InitialUEMessage (../src/amf/ngap-handler.c:361)
+04/11 16:51:15.019: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:387)
+
+04/11 16:51:15.019: [amf] INFO: [Added] Number of gNB-UEs is now 2 (../src/amf/context.c:2235)
+04/11 16:51:15.019: [amf] INFO:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:503)
+
+04/11 16:51:15.019: [amf] INFO: [suci-0-901-70-0000-0-0-0000000001] known UE by SUCI (../src/amf/context.c:1544)
+04/11 16:51:15.019: [amf] DEBUG: [suci-0-901-70-0000-0-0-0000000001] Start NG Holding Timer (../src/amf/amf-sm.c:856)
+04/11 16:51:15.019: [amf] DEBUG: [suci-0-901-70-0000-0-0-0000000001]    RAN_UE_NGAP_ID[2] AMF_UE_NGAP_ID[3] (../src/amf/amf-sm.c:857)
+
+## Release Command ##pkt: 986
+04/11 16:51:15.019: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-path.c:322)
+04/11 16:51:15.019: [amf] DEBUG:     RAN_UE_NGAP_ID[2] AMF_UE_NGAP_ID[3] (../src/amf/ngap-path.c:323)
+04/11 16:51:15.019: [amf] DEBUG:     Group[3] Cause[0] Action[1] Duration[0] (../src/amf/ngap-path.c:329)
+
+04/11 16:51:15.019: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-build.c:1084)
+04/11 16:51:15.019: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+04/11 16:51:15.019: [gmm] DEBUG: gmm_state_exception(): AMF_EVENT_5GMM_MESSAGE (../src/amf/gmm-sm.c:1285)
+
+## Registration Request ##pkt: 985
+04/11 16:51:15.019: [gmm] INFO: Registration request (../src/amf/gmm-sm.c:1328)
+04/11 16:51:15.019: [gmm] INFO: [suci-0-901-70-0000-0-0-0000000001]    SUCI (../src/amf/gmm-handler.c:149)
+04/11 16:51:15.019: [gmm] DEBUG:     OLD TSC[UE:0,AMF:0] KSI[UE:7,AMF:0] (../src/amf/gmm-handler.c:179)
+04/11 16:51:15.019: [gmm] DEBUG:     NEW TSC[UE:0,AMF:0] KSI[UE:7,AMF:0] (../src/amf/gmm-handler.c:186)
+04/11 16:51:15.019: [amf] WARNING: GUTI has already been allocated (../src/amf/context.c:1168)
+04/11 16:51:15.019: [gmm] DEBUG:     OLD TAI[PLMN_ID:09f107,TAC:1] (../src/amf/gmm-handler.c:231)
+04/11 16:51:15.019: [gmm] DEBUG:     OLD NR_CGI[PLMN_ID:09f107,CELL_ID:0x10] (../src/amf/gmm-handler.c:233)
+04/11 16:51:15.019: [gmm] DEBUG:     TAI[PLMN_ID:09f107,TAC:1] (../src/amf/gmm-handler.c:236)
+04/11 16:51:15.019: [gmm] DEBUG:     NR_CGI[PLMN_ID:09f107,CELL_ID:0x10] (../src/amf/gmm-handler.c:239)
+04/11 16:51:15.019: [gmm] DEBUG:     SERVED_TAI_INDEX[0] (../src/amf/gmm-handler.c:256)
+04/11 16:51:15.019: [sbi] DEBUG: [POST] http://127.0.0.11:7777/nausf-auth/v1/ue-authentications (../lib/sbi/client.c:678)
+04/11 16:51:15.019: [sbi] DEBUG: SENDING...[113] (../lib/sbi/client.c:396)
+04/11 16:51:15.019: [sbi] DEBUG: {
+	"supiOrSuci":	"suci-0-901-70-0000-0-0-0000000001",
+	"servingNetworkName":	"5G:mnc070.mcc901.3gppnetwork.org"
+} (../lib/sbi/client.c:398)
+
+## UE COntext Release Complete ##pkt: 986
+04/11 16:51:15.020: [amf] INFO: UE Context Release [Action:1] (../src/amf/ngap-handler.c:1412)
+04/11 16:51:15.020: [amf] INFO:     RAN_UE_NGAP_ID[2] AMF_UE_NGAP_ID[3] (../src/amf/ngap-handler.c:1413)
+04/11 16:51:15.020: [amf] DEBUG:     Action: NG context remove (../src/amf/ngap-handler.c:1431)
+
+04/11 16:51:15.020: [amf] INFO: [Removed] Number of gNB-UEs is now 1 (../src/amf/context.c:2242)
+
+## Authentication Request ##pkt: 1060
+04/11 16:51:15.021: [amf] DEBUG: [suci-0-901-70-0000-0-0-0000000001] Authentication request (../src/amf/nas-path.c:355)
+04/11 16:51:15.021: [amf] DEBUG: DownlinkNASTransport (../src/amf/ngap-build.c:321)
+04/11 16:51:15.021: [amf] DEBUG:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] (../src/amf/ngap-build.c:364)
+04/11 16:51:15.021: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+## Authentication Response ##pkt: 1061
+04/11 16:51:15.022: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:51:15.022: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:51:15.022: [amf] DEBUG:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+
+04/11 16:51:15.022: [gmm] DEBUG: [suci-0-901-70-0000-0-0-0000000001] Authentication response (../src/amf/gmm-handler.c:695)
+04/11 16:51:15.022: [sock] DEBUG: addr:127.0.0.11, port:7777 (../lib/core/ogs-sockaddr.c:140)
+04/11 16:51:15.022: [sbi] DEBUG: SENDING...[50] (../lib/sbi/client.c:396)
+04/11 16:51:15.022: [sbi] DEBUG: {
+	"resStar":	"5ba4b382dacfff7b4a2d508f67eab9a9"
+} (../lib/sbi/client.c:398)
+04/11 16:51:15.023: [sbi] DEBUG: [200:PUT] http://127.0.0.11:7777/nausf-auth/v1/ue-authentications/1/5g-aka-confirmation (../lib/sbi/client.c:562)
+04/11 16:51:15.023: [sbi] DEBUG: RECEIVED[154] (../lib/sbi/client.c:573)
+04/11 16:51:15.023: [sbi] DEBUG: {
+	"authResult":	"AUTHENTICATION_SUCCESS",
+	"supi":	"imsi-901700000000001",
+	"kseaf":	"2943a501ff85488b5e7c6819b1905636751dd3023379c9a4625933003713979a"
+} (../lib/sbi/client.c:576)
+
+## SMC Procedure #pkt: 1084
+04/11 16:51:15.023: [amf] DEBUG: [imsi-901700000000001] Security mode command (../src/amf/nas-path.c:401)
+04/11 16:51:15.023: [gmm] DEBUG:     Replayed UE SEC[LEN:4 NEA:0xf0 NIA:0xf0 EEA:0xf0 EIA:0xf0 (../src/amf/gmm-build.c:432)
+04/11 16:51:15.023: [gmm] DEBUG:     Selected[Integrity:0x2 Encrypt:0x0] (../src/amf/gmm-build.c:438)
+
+04/11 16:51:15.023: [amf] DEBUG: DownlinkNASTransport (../src/amf/ngap-build.c:321)
+04/11 16:51:15.023: [amf] DEBUG:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] (../src/amf/ngap-build.c:364)
+04/11 16:51:15.023: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+## SMC Procedure #pkt: 1085
+04/11 16:51:15.023: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:51:15.023: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:51:15.023: [amf] DEBUG:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+
+04/11 16:51:15.023: [gmm] DEBUG: [imsi-901700000000001] Security mode complete (../src/amf/gmm-sm.c:797)
+04/11 16:51:15.023: [gmm] WARNING: [imsi-901700000000001] No Security Context (../src/amf/gmm-sm.c:814)
+
+## Authentication Rejected #pkt: 1086
+04/11 16:51:15.023: [amf] WARNING: [suci-0-901-70-0000-0-0-0000000001] Registration reject [24] (../src/amf/nas-path.c:163)
+04/11 16:51:15.023: [amf] DEBUG: DownlinkNASTransport (../src/amf/ngap-build.c:321)
+04/11 16:51:15.023: [amf] DEBUG:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] (../src/amf/ngap-build.c:364)
+04/11 16:51:15.023: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+## UEContextReleaseCommand #pkt: 1087
+04/11 16:51:15.023: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-path.c:322)
+04/11 16:51:15.023: [amf] DEBUG:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] (../src/amf/ngap-path.c:323)
+04/11 16:51:15.023: [amf] DEBUG:     Group[3] Cause[0] Action[3] Duration[0] (../src/amf/ngap-path.c:329)
+
+04/11 16:51:15.023: [amf] DEBUG: UEContextReleaseCommand (../src/amf/ngap-build.c:1084)
+04/11 16:51:15.023: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+04/11 16:51:15.023: [amf] DEBUG:     SUPI[imsi-901700000000001] (../src/amf/ngap-path.c:355)
+
+## UEContextReleaseCommand Complete #pkt: 1089
+04/11 16:51:15.025: [amf] DEBUG: UEContextReleaseComplete (../src/amf/ngap-handler.c:1348)
+04/11 16:51:15.025: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:1364)
+04/11 16:51:15.025: [amf] INFO: UE Context Release [Action:3] (../src/amf/ngap-handler.c:1412)
+04/11 16:51:15.025: [amf] INFO:     RAN_UE_NGAP_ID[3] AMF_UE_NGAP_ID[4] (../src/amf/ngap-handler.c:1413)
+04/11 16:51:15.025: [amf] INFO:     SUCI[suci-0-901-70-0000-0-0-0000000001] (../src/amf/ngap-handler.c:1416)
+04/11 16:51:15.025: [amf] DEBUG:     Action: UE context remove (../src/amf/ngap-handler.c:1441)
+
+04/11 16:51:15.025: [amf] INFO: [Removed] Number of gNB-UEs is now 0 (../src/amf/context.c:2242)
+
+04/11 16:51:15.026: [amf] INFO: [Removed] Number of AMF-UEs is now 0 (../src/amf/context.c:1426)
+
+...
+...
+...
+
+####################################################
+####################################################
+## Retry Association from UE #pkt: 1148 to 1413
+04/11 16:51:26.022: [amf] INFO: InitialUEMessage (../src/amf/ngap-handler.c:361)
+04/11 16:51:26.022: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:387)
+
+04/11 16:51:26.022: [amf] INFO: [Added] Number of gNB-UEs is now 1 (../src/amf/context.c:2235)
+04/11 16:51:26.022: [amf] INFO:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:503)
+
+04/11 16:51:26.022: [amf] INFO: [suci-0-901-70-0000-0-0-0000000001] Unknown UE by SUCI (../src/amf/context.c:1546)
+
+04/11 16:51:26.022: [amf] INFO: [Added] Number of AMF-UEs is now 1 (../src/amf/context.c:1340)
+
+04/11 16:51:26.022: [gmm] INFO: Registration request (../src/amf/gmm-sm.c:135)
+04/11 16:51:26.022: [gmm] INFO: [suci-0-901-70-0000-0-0-0000000001]    SUCI (../src/amf/gmm-handler.c:149)
+04/11 16:51:26.022: [gmm] DEBUG:     OLD TSC[UE:0,AMF:0] KSI[UE:7,AMF:7] (../src/amf/gmm-handler.c:179)
+04/11 16:51:26.022: [gmm] DEBUG:     NEW TSC[UE:0,AMF:0] KSI[UE:7,AMF:7] (../src/amf/gmm-handler.c:186)
+04/11 16:51:26.022: [gmm] DEBUG:     OLD TAI[PLMN_ID:000000,TAC:0] (../src/amf/gmm-handler.c:231)
+04/11 16:51:26.022: [gmm] DEBUG:     OLD NR_CGI[PLMN_ID:000000,CELL_ID:0x0] (../src/amf/gmm-handler.c:233)
+04/11 16:51:26.022: [gmm] DEBUG:     TAI[PLMN_ID:09f107,TAC:1] (../src/amf/gmm-handler.c:236)
+04/11 16:51:26.022: [gmm] DEBUG:     NR_CGI[PLMN_ID:09f107,CELL_ID:0x10] (../src/amf/gmm-handler.c:239)
+04/11 16:51:26.022: [gmm] DEBUG:     SERVED_TAI_INDEX[0] (../src/amf/gmm-handler.c:256)
+04/11 16:51:26.022: [sbi] DEBUG: [REF] 2 (../lib/sbi/path.c:160)
+04/11 16:51:26.022: [sbi] DEBUG: [POST] http://127.0.0.11:7777/nausf-auth/v1/ue-authentications (../lib/sbi/client.c:678)
+04/11 16:51:26.022: [sbi] DEBUG: SENDING...[113] (../lib/sbi/client.c:396)
+04/11 16:51:26.022: [sbi] DEBUG: {
+	"supiOrSuci":	"suci-0-901-70-0000-0-0-0000000001",
+	"servingNetworkName":	"5G:mnc070.mcc901.3gppnetwork.org"
+} (../lib/sbi/client.c:398)
+
+04/11 16:51:26.024: [sbi] DEBUG: [201:POST] http://127.0.0.11:7777/nausf-auth/v1/ue-authentications (../lib/sbi/client.c:562)
+04/11 16:51:26.024: [sbi] DEBUG: RECEIVED[314] (../lib/sbi/client.c:573)
+04/11 16:51:26.024: [sbi] DEBUG: {
+	"authType":	"5G_AKA",
+	"5gAuthData":	{
+		"rand":	"15d3523d46ae5562173d92d4fb94e0b4",
+		"hxresStar":	"89ab2ecc524c1fa1c1dba6c2dea03bd7",
+		"autn":	"c87aefe1821a8000fd806b97ea2cfa0b"
+	},
+	"_links":	{
+		"5g-aka":	{
+			"href":	"http://127.0.0.11:7777/nausf-auth/v1/ue-authentications/1/5g-aka-confirmation"
+		}
+	}
+} (../lib/sbi/client.c:576)
+
+04/11 16:51:26.024: [amf] DEBUG: [suci-0-901-70-0000-0-0-0000000001] Authentication request (../src/amf/nas-path.c:355)
+
+04/11 16:51:26.024: [amf] DEBUG: DownlinkNASTransport (../src/amf/ngap-build.c:321)
+04/11 16:51:26.024: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] (../src/amf/ngap-build.c:364)
+04/11 16:51:26.024: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+04/11 16:51:26.024: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:51:26.024: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:51:26.024: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+
+04/11 16:51:26.024: [gmm] DEBUG: [suci-0-901-70-0000-0-0-0000000001] Authentication response (../src/amf/gmm-handler.c:695)
+04/11 16:51:26.024: [sock] DEBUG: addr:127.0.0.11, port:7777 (../lib/core/ogs-sockaddr.c:140)
+04/11 16:51:26.024: [sbi] DEBUG: SENDING...[50] (../lib/sbi/client.c:396)
+04/11 16:51:26.024: [sbi] DEBUG: {
+	"resStar":	"ee6b8d7a14340db79bdc04d8006f7d0a"
+} (../lib/sbi/client.c:398)
+04/11 16:51:26.080: [sbi] DEBUG: [200:PUT] http://127.0.0.11:7777/nausf-auth/v1/ue-authentications/1/5g-aka-confirmation (../lib/sbi/client.c:562)
+04/11 16:51:26.080: [sbi] DEBUG: RECEIVED[154] (../lib/sbi/client.c:573)
+04/11 16:51:26.080: [sbi] DEBUG: {
+	"authResult":	"AUTHENTICATION_SUCCESS",
+	"supi":	"imsi-901700000000001",
+	"kseaf":	"75db1a7037f1d24c8f3e13b902aeff9c528e2f603b433be9c330e56744bef5fd"
+} (../lib/sbi/client.c:576)
+
+
+04/11 16:51:26.080: [amf] DEBUG: [imsi-901700000000001] Security mode command (../src/amf/nas-path.c:401)
+04/11 16:51:26.080: [gmm] DEBUG:     Replayed UE SEC[LEN:4 NEA:0xf0 NIA:0xf0 EEA:0xf0 EIA:0xf0 (../src/amf/gmm-build.c:432)
+04/11 16:51:26.080: [gmm] DEBUG:     Selected[Integrity:0x2 Encrypt:0x0] (../src/amf/gmm-build.c:438)
+
+04/11 16:51:26.080: [amf] DEBUG: DownlinkNASTransport (../src/amf/ngap-build.c:321)
+04/11 16:51:26.080: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] (../src/amf/ngap-build.c:364)
+04/11 16:51:26.080: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+04/11 16:51:26.081: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:51:26.081: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:51:26.081: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+
+04/11 16:51:26.081: [gmm] DEBUG: [imsi-901700000000001] Security mode complete (../src/amf/gmm-sm.c:797)
+04/11 16:51:26.081: [gmm] DEBUG: Registration request in NAS message container (../src/amf/gmm-handler.c:1261)
+04/11 16:51:26.081: [gmm] DEBUG:     5GMM Capability:[LPP:0, HO_ATTACH:0, S1_MODE:0] (../src/amf/gmm-handler.c:319)
+
+04/11 16:51:26.081: [sbi] DEBUG: [PUT] http://127.0.0.12:7777/nudm-uecm/v1/imsi-901700000000001/registrations/amf-3gpp-access (../lib/sbi/client.c:678)
+04/11 16:51:26.081: [sbi] DEBUG: SENDING...[262] (../lib/sbi/client.c:396)
+04/11 16:51:26.081: [sbi] DEBUG: {
+	"amfInstanceId":	"f52faf3c-d877-41ed-8b10-a967ca7796db",
+	"deregCallbackUri":	"http://127.0.0.5:7777/namf-callback/v1/imsi-901700000000001/dereg-notify",
+	"guami":	{
+		"plmnId":	{
+			"mcc":	"901",
+			"mnc":	"70"
+		},
+		"amfId":	"020040"
+	},
+	"ratType":	"NR"
+} (../lib/sbi/client.c:398)
+
+...
+...
+...
+
+
+04/11 16:51:26.088: [amf] DEBUG: [imsi-901700000000001] Registration accept (../src/amf/nas-path.c:85)
+04/11 16:51:26.088: [gmm] DEBUG: [imsi-901700000000001]    5G-S_GUTI[AMF_ID:0x20040,M_TMSI:0xda0041eb] (../src/amf/gmm-build.c:75)
+04/11 16:51:26.088: [gmm] DEBUG: [imsi-901700000000001]    TAI[PLMN_ID:09f107,TAC:1] (../src/amf/gmm-build.c:89)
+04/11 16:51:26.088: [gmm] DEBUG: [imsi-901700000000001]    NR_CGI[PLMN_ID:09f107,CELL_ID:0x10] (../src/amf/gmm-build.c:91)
+04/11 16:51:26.088: [gmm] DEBUG: [imsi-901700000000001]    SERVED_TAI_INDEX[0] (../src/amf/gmm-build.c:96)
+
+
+04/11 16:51:26.088: [amf] DEBUG: InitialContextSetupRequest(UE) (../src/amf/ngap-build.c:477)
+04/11 16:51:26.088: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] (../src/amf/ngap-build.c:626)
+04/11 16:51:26.088: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+
+04/11 16:51:26.089: [amf] DEBUG: InitialContextSetupResponse (../src/amf/ngap-handler.c:788)
+04/11 16:51:26.089: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:808)
+04/11 16:51:26.089: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] (../src/amf/ngap-handler.c:840)
+
+
+04/11 16:51:26.295: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:51:26.295: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:51:26.295: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+
+
+04/11 16:51:26.295: [gmm] INFO: [imsi-901700000000001] Registration complete (../src/amf/gmm-sm.c:1127)
+04/11 16:51:26.295: [amf] INFO: [imsi-901700000000001] Configuration update command (../src/amf/nas-path.c:430)
+04/11 16:51:26.295: [gmm] INFO:     UTC [2023-04-11T14:51:26] Timezone[0]/DST[0] (../src/amf/gmm-build.c:531)
+04/11 16:51:26.295: [gmm] INFO:     LOCAL [2023-04-11T16:51:26] Timezone[7200]/DST[1] (../src/amf/gmm-build.c:536)
+04/11 16:51:26.295: [gmm] DEBUG:     Timezone:0x80 (../src/amf/gmm-build.c:550)
+
+04/11 16:51:26.295: [amf] DEBUG: DownlinkNASTransport (../src/amf/ngap-build.c:321)
+04/11 16:51:26.295: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] (../src/amf/ngap-build.c:364)
+04/11 16:51:26.295: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+04/11 16:51:26.295: [amf] DEBUG: UplinkNASTransport (../src/amf/ngap-handler.c:546)
+04/11 16:51:26.295: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:568)
+04/11 16:51:26.295: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] TAC[1] CellID[0x10] (../src/amf/ngap-handler.c:647)
+
+
+04/11 16:51:26.295: [amf] INFO: [Added] Number of AMF-Sessions is now 1 (../src/amf/context.c:2249)
+
+04/11 16:51:26.295: [gmm] INFO: UE SUPI[imsi-901700000000001] DNN[internet] S_NSSAI[SST:1 SD:0xffffff] (../src/amf/gmm-handler.c:1062)
+04/11 16:51:26.295: [gmm] DEBUG: [REF] 2 (../src/amf/gmm-handler.c:1076)
+04/11 16:51:26.295: [sbi] DEBUG: [POST] http://127.0.0.4:7777/nsmf-pdusession/v1/sm-contexts (../lib/sbi/client.c:678)
+04/11 16:51:26.295: [sbi] DEBUG: SENDING...[1124] (../lib/sbi/client.c:396)
+04/11 16:51:26.295: [sbi] DEBUG: --=-/vDrWP83wfPcLt+PXRKhYA==
+Content-Type: application/json
+
+{
+	"supi":	"imsi-901700000000001",
+	"pei":	"imeisv-4370816125816151",
+	"pduSessionId":	1,
+	"dnn":	"internet",
+	"sNssai":	{
+		"sst":	1
+	},
+	"servingNfId":	"f52faf3c-d877-41ed-8b10-a967ca7796db",
+	"guami":	{
+		"plmnId":	{
+			"mcc":	"901",
+			"mnc":	"70"
+		},
+		"amfId":	"020040"
+	},
+	"servingNetwork":	{
+		"mcc":	"901",
+		"mnc":	"70"
+	},
+	"n1SmMsg":	{
+		"contentId":	"5gnas-sm"
+	},
+	"anType":	"3GPP_ACCESS",
+	"ratType":	"NR",
+	"ueLocation":	{
+		"nrLocation":	{
+			"tai":	{
+				"plmnId":	{
+					"mcc":	"901",
+					"mnc":	"70"
+				},
+				"tac":	"000001"
+			},
+			"ncgi":	{
+				"plmnId":	{
+					"mcc":	"901",
+					"mnc":	"70"
+				},
+				"nrCellId":	"000000010"
+			},
+			"ueLocationTimestamp":	"2023-04-11T14:51:26.022815Z"
+		}
+	},
+	"ueTimeZone":	"+02:00",
+	"smContextStatusUri":	"http://127.0.0.5:7777/namf-callback/v1/imsi-901700000000001/sm-context-status/1",
+	"pcfId":	"f52f4312-d877-41ed-b7d6-577920b9f942"
+}
+--=-/vDrWP83wfPcLt+PXRKhYA==
+Content-Id: 5gnas-sm
+Content-Type: application/vnd.3gpp.5gnas
+
+.�����( (../lib/sbi/client.c:398)
+
+04/11 16:51:26.296: [smf] INFO: [Added] Number of SMF-UEs is now 1 (../src/smf/context.c:898)
+
+04/11 16:51:26.296: [smf] INFO: [Added] Number of SMF-Sessions is now 1 (../src/smf/context.c:2975)
+
+04/11 16:51:26.298: [smf] INFO: UE SUPI[imsi-901700000000001] DNN[internet] IPv4[10.45.0.3] IPv6[] (../src/smf/npcf-handler.c:495)
+
+04/11 16:51:26.298: [upf] INFO: [Added] Number of UPF-Sessions is now 1 (../src/upf/context.c:178)
+
+04/11 16:51:26.298: [upf] INFO: UE F-SEID[UP:0x2 CP:0x2] APN[internet] PDN-Type[1] IPv4[10.45.0.3] IPv6[] (../src/upf/context.c:397)
+
+04/11 16:51:26.298: [upf] INFO: UE F-SEID[UP:0x2 CP:0x2] APN[internet] PDN-Type[1] IPv4[10.45.0.3] IPv6[] (../src/upf/context.c:397)
+
+04/11 16:51:26.299: [sbi] DEBUG: connection closed [127.0.0.1]:52922 (../lib/sbi/nghttp2-server.c:617)
+
+04/11 16:51:26.299: [amf] DEBUG: PDUSessionResourceSetupRequest(Session) (../src/amf/ngap-build.c:1329)
+04/11 16:51:26.299: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] (../src/amf/ngap-build.c:1374)
+04/11 16:51:26.299: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-path.c:70)
+
+04/11 16:51:26.302: [amf] DEBUG: PDUSessionResourceSetupResponse (../src/amf/ngap-handler.c:1515)
+04/11 16:51:26.302: [amf] DEBUG:     IP[10.0.2.5] RAN_ID[1] (../src/amf/ngap-handler.c:1540)
+04/11 16:51:26.302: [amf] DEBUG:     RAN_UE_NGAP_ID[4] AMF_UE_NGAP_ID[5] (../src/amf/ngap-handler.c:1572)
