@@ -1,8 +1,8 @@
-<center>
+<div class="center">
   **Security Analysis of 5G Core Network**
 
   *M.Sc Thesis in Cybersecurity of University of Pisa*
-</center>
+</div>
 
 *Abstract:*
 
