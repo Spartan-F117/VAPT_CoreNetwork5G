@@ -1,18 +1,20 @@
-<div class="center">
-  **Security Analysis of 5G Core Network**
+<h1 align="center">Security Analysis of 5G Core Network</h1>
+<h3 align="center">M.Sc Thesis in Cybersecurity of University of Pisa</h3>
+  
 
-  *M.Sc Thesis in Cybersecurity of University of Pisa*
-</div>
 
 *Abstract:*
 
-The fifth generation of mobile networks defined by 3GPP introduces improvements in every respect over previous ones: bandwidth, latency, security, new use cases and more. The new standard introduces a new architecture in the Core Network, the Service-Based Architecture (SBA), and a new method of intercommunication between the functions (Network Functions) of the Core Network: the Service-Based Interface (SBI). In this new architectural style, each Network Function communicates with the
+*The fifth generation of mobile networks defined by 3GPP introduces improvements in every respect over previous ones: bandwidth, latency, security, new use cases and more. The new standard introduces a new architecture in the Core Network, the Service-Based Architecture (SBA), and a new method of intercommunication between the functions (Network Functions) of the Core Network: the Service-Based Interface (SBI). In this new architectural style, each Network Function communicates with the
 others through REST API requests (HTTP2/JSON). The mode of communication that is new to telecom technologies has already been established in the realm of web
 services, where there are a wide range of vulnerabilities that can be targeted by automated tools. The goal set in this thesis work is to analyze the SBA of the 5G Core and test the security of the API interfaces of Network Functions (NFs) implemented in open-source frameworks, with a hands-on approach, performing API Injection
 attacks. The security of the Core Network will also be analyzed by evaluating Network Functions that are reachable from the outside, such as the Access and Mobility
-Management Function, assessing resistance to replay and DDoS attacks.
+Management Function, assessing resistance to replay and DDoS attacks*
 
-Two widely used open-source implementations of the 5G Core will be explored: **Open Air Interface (OAI)** and **Open5GS**.
+*Two widely used open-source implementations of the 5G Core will be explored: **Open Air Interface (OAI)** and **Open5GS**.*
+
+</br>
+</br>
 
 This GitHub repository contains traffic captures and results of API injection tests performed during the thesis work.
   
