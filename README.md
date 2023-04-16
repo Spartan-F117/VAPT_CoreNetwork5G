@@ -31,21 +31,21 @@ This GitHub repository contains traffic captures and results of API injection te
     ├── ts_129510v161300p.pdf
     ├── TS29510_Nnrf_NFManagement_Rel16.yaml
     └── start.py
-├── DDoS Tests
+ ├── DDoS Tests
     ├── OAI
         ├── AMF
             ├── test1_capinfos
-            ├── test2_capinfos
-        ├── NRF
+            └── test2_capinfos
+        └── NRF
             ├── test1_capinfos
-            ├── test2_capinfos            
-    ├── Open5GS
+            └── test2_capinfos            
+    └── Open5GS
         ├── AMF
             ├── test1_capinfos
-            ├── test2_capinfos
-        ├── NRF
+            └── test2_capinfos
+        └── NRF
             ├── test1_capinfos
-            ├── test2_capinfos     
+            └── test2_capinfos     
 ├── Testbed 1 - Open5GS/
     ├── open5gs.zip
     ├── 5greplay-0.0.1/
