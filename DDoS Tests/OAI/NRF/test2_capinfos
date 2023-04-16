@@ -1,0 +1,27 @@
+File name:           test2
+File type:           Wireshark/tcpdump/... - pcap
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: 262144 bytes
+Number of packets:   13 M
+File size:           18 GB
+Data size:           18 GB
+Capture duration:    500,132944 seconds
+First packet time:   2023-04-16 19:02:26,015262
+Last packet time:    2023-04-16 19:10:46,148206
+Data byte rate:      36 MBps
+Data bit rate:       291 Mbps
+Average packet size: 1347,23 bytes
+Average packet rate: 27 kpackets/s
+SHA256:              7a77d3d9859ce334e8fcadffcc4ebebdcb90d15c7bea853f8463ed16bfca5949
+RIPEMD160:           fa7267dec644449b67d4b86c23b76d4e05b088f4
+SHA1:                bd5daa507d54c4603e468a1ab4290207187e611e
+Strict time order:   True
+Number of interfaces in file: 1
+Interface #0 info:
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Number of stat entries = 0
+                     Number of packets = 13535919

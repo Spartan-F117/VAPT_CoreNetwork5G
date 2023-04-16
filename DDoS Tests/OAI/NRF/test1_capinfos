@@ -1,0 +1,30 @@
+corenetwork@corenetwork-VirtualBox:/media/sf_SharedFolder/Testbed-Projects/DDoS_test_v2_OAI/NRF$ sudo capinfos -A test1
+[sudo] password di corenetwork: 
+File name:           test1
+File type:           Wireshark/tcpdump/... - pcap
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: 262144 bytes
+Number of packets:   14 M
+File size:           19 GB
+Data size:           18 GB
+Capture duration:    500,105951 seconds
+First packet time:   2023-04-16 18:38:47,658784
+Last packet time:    2023-04-16 18:47:07,764735
+Data byte rate:      37 MBps
+Data bit rate:       303 Mbps
+Average packet size: 1336,07 bytes
+Average packet rate: 28 kpackets/s
+SHA256:              a37f13a33ffaa0331dc17c1f1821938e60943c8756f9eb8479c049eba7dcc721
+RIPEMD160:           e413f7c0c59926403587e007ab3bfadafd0f2509
+SHA1:                f7497f5edda8a66f65fd35008abf056a4ed796cb
+Strict time order:   True
+Number of interfaces in file: 1
+Interface #0 info:
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Number of stat entries = 0
+                     Number of packets = 14217129
+
